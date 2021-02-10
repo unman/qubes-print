@@ -1,0 +1,1 @@
+socat TCP4-LISTEN:9100,reuseaddr,fork EXEC:"qrexec-client-vm print qubes.Print"
